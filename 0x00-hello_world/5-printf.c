@@ -2,9 +2,11 @@
 
 /**
  *
- *main - Prints a text
+ * main - Prints a text
  *
- *Return: Always 0 (Successful)
+ * Description: using the main function
+ * this program prints "programming is multilingual puzzle"
+ * Return: Always 0 (Successful)
  *
  */
 int main(void)
