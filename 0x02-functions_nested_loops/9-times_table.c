@@ -8,7 +8,7 @@
  *
  */
 
-void time_table(void)
+void times_table(void)
 {
 	int num, mult, prod;
 
@@ -30,7 +30,7 @@ void time_table(void)
 				_putchar(' ');
 			else
 				_putchar((prod / 10) + 48); /*get the first digit*/
-			_putchar((prod % 10) + 48); /*get the second digit*/
+				_putchar((prod % 10) + 48); /*get the second digit*/
 		}
 		_putchar('\n');
 	}
