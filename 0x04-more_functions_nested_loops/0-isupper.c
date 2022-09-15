@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  *_isdigit - check whether a number passed as an argumentis digit number
- * @value: argument to be checked
- * Return: returns 1 if successful or 0 if otherwise
+ * @c: argument to be checked
+ * Return: returns 1 if uppercase or 0 if otherwise
  */
-int _isdigit(int value)
+int _isdigit(int c)
 {
-	if (value >= '0' && value <= '9')
+	if (( c >= 'A)' && (c <= 'zZ))
 	{
 		return (1);
 	}
