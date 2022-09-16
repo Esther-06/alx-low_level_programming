@@ -1,17 +1,16 @@
 #include "main.h"
 /**
- *_isdigit - check whether a number passed as an argumentis digit number
- * @c: argument to be checked
+ *_isupper - check if uppercase
+ * @c: character to check
+ *
  * Return: returns 1 if uppercase or 0 if otherwise
  */
-int _isdigit(int c)
+
+int _isupper(int c)
 {
-	if (( c >= 'A)' && (c <= 'zZ))
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
-	else
-	{
-		return (0);
-	}
+	return (0);
 }
