@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: prints fibonacci numbers starting from 1
+ * main - prints fibonacci numbers starting from 1
  * Returns: Always 0 (success)
  */
 
