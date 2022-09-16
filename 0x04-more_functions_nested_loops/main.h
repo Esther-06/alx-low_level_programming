@@ -10,7 +10,7 @@
 int _putchar(char c);
 
 /**
- * _isupper - cheches for uppercase character
+ * _isupper - checks for uppercase character
  * @c: The character to be checked
  * Return: 1 if c is uppercase, 0 otherwise
  */
@@ -29,6 +29,15 @@ int _isdigit(int c);
  * mul - multiples two integers
  * @a: number 1
  * @b: number 2
+ * Return: The multiplication result of the numbers
+ */
+
+int mul(int a, int b);
+
+/**
+ * mul - multipies two integers
+ * @a: number1
+ * @b: number2
  * Return: The multiplication result of the numbers
  */
 
