@@ -12,6 +12,7 @@ void print_array(int *array, int num)
 
 	num = num - 1;
 	i = 0;
+	while (i <= num)
 	{
 		if (i == num)
 		{
