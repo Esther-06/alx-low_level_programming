@@ -11,7 +11,7 @@ void print_array(int *array, int num)
 	int i;
 
 	num = num - 1;
-	i - 0;
+	i = 0;
 	{
 		if (i == num)
 		{
