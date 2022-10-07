@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strlen - calculate and return string length
  * @string: string
@@ -10,6 +9,7 @@ int _strlen(char *string)
 	int i;
 
 	for (i = 0; string[i] != '\0'; i++)
+	
 	return (i);
 }
 /**
@@ -45,6 +45,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (j = 0; j < num; j++) /*add s2 n bytes to ptr*/
 		ptr[i + j] = s2[j];
 	ptr[i + j] = '\0';
+	
 	return (ptr);
 }
 
