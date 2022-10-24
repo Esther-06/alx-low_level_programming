@@ -2,7 +2,7 @@
 
 /**
  * print_list - check the code
- * @h: name of the list
+ * @h: pointer to head first node
  * Return: the number of nodes
  */
 size_t print_list(const list_t *h)
