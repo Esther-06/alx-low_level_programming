@@ -1,29 +1,17 @@
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
+#include "lists.h"
 
 /**
- * main - main fuction generate a random number
- * Return: return 0(successful)
+ * print_dlistint - print a double linked list
+ * @h: head of the linked list
+ *
+ * Return: size_t, size of the linked list
  */
 
-int main(void)
+size_t print_dlistint(const dlistint_t *h)
 {
-	int n;
+	size_t n = 0;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-	{
-		printf("%d is positive\n", n);
-	}
-	else if (n == 0)
-	{
-		printf("%d is zero\n", n);
-	}
-	else
-	{
-		printf("%d is negative\n", n);
-	}
-	return (0);
+	while (h != NULL)
+		printf("%d\n", h->n), n++, h = h->next;
+	return (n);
 }
