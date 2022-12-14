@@ -1,6 +1,8 @@
-#ifndef DYNLIB
-#define DYNLIB
+#ifndef MAIN_H
+#define MAIN_H
 
+#include  <stdlib.h>
+#include  <ctype.h>
 #include <stdlib.h>
 
 int _putchar(char c);
